@@ -10,7 +10,7 @@ int arrsizes()
 {   
     char ad[256];
     char ds[132];
-    return sizeof(ad) * sizeof(ds);
+    return sizeof(ad) + sizeof(ds);//функая для расчёта размера массивов место сложения их размеров перемножала размеры 
 }
 int main()
 {
