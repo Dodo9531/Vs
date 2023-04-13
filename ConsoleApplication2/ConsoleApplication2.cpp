@@ -21,8 +21,7 @@ int main()
     if (foo(0, 0) > 12)
         false1 = false;
     else
-        false1 = true;
-    false1 = false;
+        false1 = true; //Было лишнее присвоение значения false из-за чего if не имел смысла т.к. переменная всегда была false
     if (false1 == false)
         std::cout << "false";
     if (false1 == 12)
