@@ -5,12 +5,7 @@ int foo(int a, int b)
 {
     int d = a + b;
     return d;
-}
-int foo2(int a, int b)
-{
-    int d = a + b;
-    return d;
-}
+} // Было две функции с разным названием но полностью одинаковыми телами, удалил вторую функцию
 int arrsizes()
 {   
     char ad[256];
