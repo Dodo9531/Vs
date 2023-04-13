@@ -24,7 +24,7 @@ int main()
         false1 = true; // Ошибка того что переменная false1 перед if всегда равна false из-за лишнего присвоения
     if (false1 == false)
         std::cout << "false";
-    if (false1 == 12)
+    if (false1 == true) //Некорректное сравнения переменной bool с целым числом
         std::cout << "true";
     std::cout << "Hello World!\n";
 }
